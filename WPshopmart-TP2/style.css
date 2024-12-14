@@ -1,0 +1,92 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  span{
+    color: orange; /*color dyal WP*/
+  }
+
+header {
+    display: flex;
+    justify-content: space-between; /*bach yb9a espace bin lktba*/
+    align-items: center;
+    padding: 15px 20px;
+    background-color: whitesmoke;
+}
+
+header .logo {
+    font-size: 20px; /*size of wp....*/
+    font-weight: bold;  /*bach tji ktba ghlida*/
+}
+
+header nav ul {
+    display: flex;  /*bach yjiw fkhet wahd machi whda t7t whda*/
+    list-style: none; /*bach maybanouch no9at*/
+}
+
+header nav ul li {
+    margin: 0 15px;  /*space btw home ... contact*/
+}
+
+header nav ul li a {
+    text-decoration: none; /*bach maytl3och khtot t7T ktba*/
+}
+
+header .login-btn {
+    background-color: goldenrod;
+    /* color: white; */  /*just for btn color*/ 
+    border: none; /*bach maybanch bordure*/
+    padding: 5px 25px;  /*tol  dyal brd*/
+    border-radius: 25px; /*bach tssawb dora dyal bordure*/
+}
+
+main {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+main .content {
+    max-width: 50%; /*bach tkbr chwiya tsswira*/
+}
+
+main .content h1 {
+    font-size: 36px;
+    padding: 5px;
+}
+
+main .content .singUP-btn {
+    background-color: orange;
+    /* color: white; */
+    border: none;
+    padding: 10px 30px; /*tol*/
+    border-radius: 25px; /*chhal dor*/
+    margin-top: 30px;
+}
+
+main .undraw img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+footer .social-icons {
+    list-style: none; /*bla no9at li*/
+    display: flex;  /*yjw fster wahd*/
+    justify-content: center;
+}
+
+footer .social-icons li {
+    margin: 0 20px; /*0 bach matzidch f tol w 20 espace binathm*/
+}
+
+footer .social-icons li a {
+    font-size: 20px;
+}
